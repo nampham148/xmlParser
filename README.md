@@ -1,2 +1,2 @@
-groovy companyXmlParser.groovy [filePath] \n
+groovy companyXmlParser.groovy [filePath]
 groovy dbAdder.groovy [filePath] 
