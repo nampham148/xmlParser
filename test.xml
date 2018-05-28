@@ -1,7 +1,18 @@
 <?xml version="1.0"?>
 <Company>
   <Employee>
-      <FirstName>Tanmay</FirstName>
+      <FirstName>Nam</FirstName>
+      <LastName>Pham</LastName>
+      <ContactNo>1234567890</ContactNo>
+      <Email>nampham@xyz.com</Email>
+      <Address>
+           <City>Hanoi</City>
+           <State>Vietnam</State>
+           <Zip>10000</Zip>
+      </Address>
+  </Employee>
+  <Employee>
+      <FirstName>Khuyen</FirstName>
       <LastName>Patil</LastName>
       <ContactNo>1234567890</ContactNo>
       <Email>tanmaypatil@xyz.com</Email>
@@ -24,18 +35,7 @@
   </Employee>
   <Employee>
       <FirstName>Tanmay</FirstName>
-      <LastName>Patil</LastName>
-      <ContactNo>1234567890</ContactNo>
-      <Email>tanmaypatil@xyz.com</Email>
-      <Address>
-           <City>Bangalore</City>
-           <State>Karnataka</State>
-           <Zip>560212</Zip>
-      </Address>
-  </Employee>
-  <Employee>
-      <FirstName>Tanmay</FirstName>
-      <LastName>Patil</LastName>
+      <LastName>XYZ</LastName>
       <ContactNo>1234567890</ContactNo>
       <Email>tanmaypatil@xyz.com</Email>
       <Address>

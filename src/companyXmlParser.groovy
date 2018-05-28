@@ -27,7 +27,7 @@ class companyXmlParser {
         company.Employee.each {employee ->
             data << parseEmployee(employee)
         }
-        action(data)
+        data.each(action)
     }
 
     static void main(String[] args) {
