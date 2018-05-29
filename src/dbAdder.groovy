@@ -6,6 +6,12 @@ import groovy.sql.Sql
 class dbAdder {
 
     static void main(String[] args) {
+        //check for input
+        if (args.size() != 1) {
+            println "Incorrect format: groovy dbAdder.groovy [filepath]"
+            return
+        }
+
         def url = "jdbc:hsqldb:../db/company"
         def user = 'sa'
         def password = ''
@@ -25,6 +31,11 @@ class dbAdder {
                 UNIQUE(employeeId)
                 );
                 """
+
+        sql.execute """
+                        CREATE INDEX IF NOT EXISTS name
+                        ON EMPLOYEES (FirstName, LastName);
+                        """
         //parse the file
         String dataPath = args[0]
         def parser = new companyXmlParser()
