@@ -4,11 +4,7 @@
     <list default="true" id="6dd5a410-4c23-4908-a82c-03a295c68f03" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/company.properties" beforeDir="false" afterPath="$PROJECT_DIR$/db/company.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/company.script" beforeDir="false" afterPath="$PROJECT_DIR$/db/company.script" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dbAdder.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbAdder.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbSetup.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbView.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbView.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -38,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbAdder.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbAdder.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dbAdder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="307">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -51,7 +47,16 @@
         <entry file="file://$PROJECT_DIR$/src/dbView.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbSetup.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbSetup.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -67,10 +72,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/companyXmlParser.groovy" />
         <option value="$PROJECT_DIR$/src/DbUtil.groovy" />
-        <option value="$PROJECT_DIR$/src/dbSetup.groovy" />
         <option value="$PROJECT_DIR$/src/dbView.groovy" />
-        <option value="$PROJECT_DIR$/src/dbAdder.groovy" />
         <option value="$PROJECT_DIR$/test.xml" />
+        <option value="$PROJECT_DIR$/src/dbSetup.groovy" />
+        <option value="$PROJECT_DIR$/src/dbAdder.groovy" />
       </list>
     </option>
   </component>
@@ -206,6 +211,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -318,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DbUtil.groovy" />
     <entry file="file://$PROJECT_DIR$/company.db.log" />
     <entry file="file://$PROJECT_DIR$/company.db.properties" />
@@ -345,10 +344,34 @@
         <state relative-caret-position="-342" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/d.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbView.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dbSetup.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="546">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -359,24 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbView.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dbAdder.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="307">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>

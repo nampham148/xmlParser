@@ -12,7 +12,7 @@
       </Address>
   </Employee>
   <Employee>
-      <FirstName>Khuyen</FirstName>
+      <FirstName>Hung</FirstName>
       <LastName>Patil</LastName>
       <ContactNo>1234567890</ContactNo>
       <Email>tanmaypatil@xyz.com</Email>
@@ -24,7 +24,7 @@
   </Employee>
   <Employee>
       <FirstName>An</FirstName>
-      <LastName>Nguyen</LastName>
+      <LastName>Pham</LastName>
       <ContactNo>1234567890</ContactNo>
       <Email>tanmaypatil@xyz.com</Email>
       <Address>
