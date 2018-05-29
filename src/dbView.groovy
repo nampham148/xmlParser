@@ -9,7 +9,7 @@ def password = ''
 def driver = "org.hsqldb.jdbcDriver"
 def sql = Sql.newInstance(url, user, password, driver)
 
-sql.eachRow("""SELECT * FROM "employees" """) {row ->
+sql.eachRow("""SELECT * FROM EMPLOYEES """) {row ->
     println row
 }
 
