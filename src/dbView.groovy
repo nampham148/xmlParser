@@ -1,4 +1,4 @@
-@Grab('org.hsqldb:hsqldb:2.2.8')
+@Grab('org.hsqldb:hsqldb:2.3.4')
 @GrabConfig(systemClassLoader=true)
 
 import groovy.sql.Sql
@@ -9,8 +9,11 @@ def password = ''
 def driver = "org.hsqldb.jdbcDriver"
 def sql = Sql.newInstance(url, user, password, driver)
 
-sql.eachRow("""SELECT * FROM EMPLOYEES """) {row ->
-    println row
+
+//sql.execute "UPDATE EMPLOYEES SET EMAIL = 'helloworld@groovy.com' WHERE EMPLOYEEID = 10"
+
+sql.eachRow("SELECT * FROM EMPLOYEES") {
+    println it
 }
 
 sql.close()
